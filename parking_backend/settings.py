@@ -137,11 +137,11 @@ SIMPLE_JWT = {
 }
 
 # CORS Settings
-CORS_ALLOW_CREDENTIALS = True
+CORS_ALLOW_CREDENTIALS = False
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
-    "http://127.0.0.1:3000",
+    # "http://127.0.0.1:3000",
     "https://smart-parking-frontend.vercel.app",
 ]
 
